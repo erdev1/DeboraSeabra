@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(197, 73, 197);
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.header {
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    background-image: url('img/Débora Seabra 4k.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    border-radius: 20px;
+    margin: -10px auto;
+    border-color: blueviolet;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.header h1 {
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.container-secoes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.card {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card span {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#card-sobre {
+    background-image: url('img/SobreGrêmio.jpeg');
+}
+#card-equipe {
+    background-image: url('img/NossaEquipe.jpeg');
+}
+#card-projetos {
+    background-image: url('img/Projetos.jpeg');
+}
+#card-painel {
+    background-image: url('img/Transparência.jpeg');
+}
+
+.secao {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+}
