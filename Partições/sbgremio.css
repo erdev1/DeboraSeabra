@@ -1,0 +1,61 @@
+body {
+    background-color: pink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.qm {
+    color: purple;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.frm {
+    color: red;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.prq {
+    color: orange;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p1 {
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.6;
+}
+
+.p2 {
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.6;
+}
+
+.p3 {
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.6;
+}
