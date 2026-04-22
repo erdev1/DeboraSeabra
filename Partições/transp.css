@@ -1,0 +1,65 @@
+#cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.card-evento {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: #27ae60 8px solid;
+    border-radius: 10px;
+}
+
+.grid-turmas-interna {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.mini-card {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 3px solid #3498db;
+}
+
+.rodape-evento {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+    color: #27ae60;
+}
+
+.rodape-evento strong {
+    font-size: 1.2em;
+    color: #27ae60;
+}
+.rodape-evento h1 {
+    font-size: 1.2em;
+    color: #2c3e50;
+}
+.rodape-evento small {
+    font-size: 1.2em;
+    color: #e74c3c;
+}
+
+.rodape-evento > div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
