@@ -1,0 +1,121 @@
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(33, 13, 150, 0.952) 0%, rgb(68, 76, 102) 45%), rgb(18, 121, 255) 100%;
+    min-height: 100vh;
+}
+
+.header {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    background-image: url('img/Débora Seabra 4k.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    border-radius: 20px;
+    margin: -10px auto;
+    border-color: rgb(22, 13, 22);
+    border-width: 2px;
+    border-style: solid;
+}
+
+.header h1 {
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.cabeca {
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.container-secoes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.corpo {
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card span {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#card-sobre {
+    background-image: url('img/SobreGrêmio.jpeg');
+    border: 3px solid black;
+}
+
+#card-equipe {
+    background-image: url('img/nossa-equipe.jpeg');
+    border: 3px solid green;
+
+}
+
+#card-projetos {
+    background-image: url('img/Projetos.jpeg');
+    border: 3px solid blue;
+}
+
+#card-painel {
+    background-image: url('img/Transparência.jpeg');
+    border: 3px solid red;
+}
+
+.secao {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+    color: black;
+}
+
+.foot {
+    font-size: 0.9rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: wheat;
+    text-align: center;
+    margin-top: 20px;
+}

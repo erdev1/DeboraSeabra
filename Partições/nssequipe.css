@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    margin: 0;
+}
+
+.equipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.container-equipe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    list-style: none;
+}
+
+.card {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.cargo {
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+    text-align: center;
+}
+
+.foto {
+    width: 60%;
+    aspect-ratio: 1 / 1;
+    background-color: #bbb;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nome {
+    font-size: 0.8rem;
+    color: #555;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
