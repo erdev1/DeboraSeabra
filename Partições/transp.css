@@ -1,0 +1,124 @@
+#cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.card-evento {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: #27ae60 8px solid;
+    border-radius: 10px;
+}
+
+.card-evento:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+
+.grid-turmas-interna {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.mini-card {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 3px solid #3498db;
+}
+
+.rodape-evento {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+    color: #27ae60;
+}
+
+.rodape-evento strong {
+    font-size: 1.2em;
+    color: #27ae60;
+}
+.rodape-evento h1 {
+    font-size: 1.2em;
+    color: #2c3e50;
+}
+.rodape-evento small {
+    font-size: 1.2em;
+    color: #e74c3c;
+}
+
+.rodape-evento > div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.spinner {
+    width: 60px;
+    height: 60px;
+    border: 8px solid rgba(255, 255, 255, 0.3);
+    border-left-color: #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    border-top: 8px solid #3498db;
+    border-right: 8px solid transparent;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.header-section {
+    text-align: center;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.header-section h1 {
+    color: rgb(189, 189, 34);
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.header-section p {
+   font-size: 1.25rem;
+    color: #fab89d;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tudo {
+    background: linear-gradient(135deg, #253992 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 40px 0;
+}
